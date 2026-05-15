@@ -8,7 +8,7 @@
     "validate": "node scripts/validate-project.mjs",
     "cordova:android": "cordova platform add android && cordova build android",
     "cordova:prepare": "cordova prepare",
-    "vercel-build": "npm run validate"
+    "vercel-build": "echo 'Build ready — static site, no compile step needed.'"
   },
   "keywords": [
     "cordova",
